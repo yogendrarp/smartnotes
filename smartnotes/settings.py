@@ -59,7 +59,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR,'static/templates'
+            BASE_DIR, 'static/templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -127,3 +127,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR, 'static',
 ]
+LOGIN_REDIRECT_URL = '/smart/notes'
